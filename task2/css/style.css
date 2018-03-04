@@ -1,0 +1,100 @@
+:root {
+    --main-color: #1cc37c;
+}
+h1 {
+    font-size: 24px;
+    color: var(--main-color);
+    margin-left: 20%;
+}
+
+.form-container {
+    border: 1px solid var(--main-color);
+    width: 60%;
+    margin: auto;
+    padding: 0 10px;
+}
+
+p {
+    font-weight: bold;
+    position: relative;
+    line-height: 28px;
+}
+
+input {
+    padding: 5px;
+    width: 70%;
+    position: absolute;
+    right: 0;
+}
+
+#skill-list {
+    padding: 0;
+    width: 60%;
+    margin: 20px auto 0;
+}
+
+#skill-list p {
+    color: #fff;
+    background-color: var(--main-color);
+    padding: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+
+}
+
+
+#addSkill {
+    display: block;
+    margin: 20px 10px 20px;
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+#addSkill:hover {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    transition: all .5s ease;
+    cursor: pointer;
+
+}
+
+.invalidInput {
+    border: 2px solid red;
+    outline: none;
+}
+
+.defaultInput {
+    border: 2px solid transparent;
+    outline: none;
+}
+
+hr {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.evaluations {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 60%;
+    margin: 10px auto 0;
+    padding: 0;
+}
+
+.evaluations li {
+    color: #888;
+}
+
+.evaluations li:nth-child(2) {
+    padding-right: 10%;
+}
+
+.evaluations li:nth-child(3) {
+    padding-left: 10%;
+}

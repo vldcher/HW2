@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+form {
+    margin: auto;
+    min-width: 640px;
+}
+.radio-inline {
+    margin-left: 20px;
+}
+.outputs button{
+    display: block;
+    margin-bottom: 20px;
+    width: 220px;
+}
